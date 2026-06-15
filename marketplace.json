@@ -1,0 +1,27 @@
+{
+  "name": "agent-plugin-marketplace",
+  "owner": {
+    "name": "Your Org",
+    "email": "plugins@example.com"
+  },
+  "description": "Cross-platform plugin marketplace for Claude Code, Codex, and Cursor",
+  "metadata": {
+    "description": "Cross-platform plugin marketplace for Claude Code, Codex, and Cursor",
+    "version": "0.1.0"
+  },
+  "interface": {
+    "displayName": "Agent Plugin Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "my-plugin",
+      "source": "./",
+      "description": "Skills, agents, commands, MCP, and hooks",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

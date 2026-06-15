@@ -1,0 +1,22 @@
+{
+  "name": "my-plugin",
+  "version": "0.1.0",
+  "description": "Full-featured cross-platform plugin with skills, agents, commands, MCP, and hooks.",
+  "author": {
+    "name": "Your Org",
+    "email": "plugins@example.com"
+  },
+  "license": "MIT",
+  "keywords": ["skills", "agents", "commands", "hooks", "mcp"],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "commands": "./commands/",
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Advanced Starter",
+    "shortDescription": "Skills, agents, commands, MCP, and hooks",
+    "category": "Productivity",
+    "logo": "./assets/logo.svg"
+  }
+}
